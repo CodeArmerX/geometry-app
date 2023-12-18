@@ -14,7 +14,7 @@ import { Triangle } from './components/triangle/triangle.component';
 })
 export class AppComponent {
   title = 'geometry-app';
-  selected = 'triangle'
+  selected = null
   handleChange(event: any) {
     this.selected = event.target.value;
   }

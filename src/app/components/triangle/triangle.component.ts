@@ -18,13 +18,11 @@ export class Triangle {
 
   handleSubmit = (event: any) => {
     event.preventDefault()
-    console.log(Object.values(this.shapes))
     this.perimeter =
     Object.values(this.shapes)
     .reduce((acc,key) => {
       return Number(acc) + Number(key)
     })
-    console.log(this.perimeter)
   }
   handleInput(event: any) {
     const { value, name } = event.target;
