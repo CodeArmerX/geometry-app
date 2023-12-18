@@ -1,0 +1,19 @@
+:root{
+    color-scheme: dark;
+}
+
+/* center */
+section{
+    color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+ion-select{
+    width: 40%;
+}
+app-circle{
+    width: 40%;
+    display: grid;
+    place-content: center;
+}
