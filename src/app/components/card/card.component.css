@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 900;
+    text-wrap: wrap;
+}
+section img {
+    width: 90px;
+    margin: 0px 10px;
+    object-fit: cover;
+}
+span {
+    font-size: .7rem;
+    color: #ccc;
+    margin:  0 10px;
+    margin-top: 8px;
+}

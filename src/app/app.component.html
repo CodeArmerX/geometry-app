@@ -1,16 +1,8 @@
 <section>
-    <ion-select 
-    (ionChange)="handleChange($event)"
-    aria-label="Select One" 
-    placeholder="Selecciona una figura geométrica"
-    >
-        <ion-select-option value="circle">Circulo</ion-select-option>
-        <ion-select-option value="triangle">Triangulo</ion-select-option>
-    </ion-select>
-    @if (selected === 'circle') {
-        <app-circle/>
-    }
-    @else if (selected === 'triangle') {
-        <app-triangle/>
-    }
+    <app-card>
+    </app-card>
+    <app-card>
+    </app-card>
+    <app-card>
+    </app-card>
 </section>
